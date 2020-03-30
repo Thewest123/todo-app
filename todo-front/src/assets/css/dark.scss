@@ -1,0 +1,40 @@
+$dark: #343c3d;
+$lightdark: #424a4b;
+$white: #f2f2f2;
+
+.modal-card-body {
+  background-color: $dark;
+  color: $white;
+
+  .label,
+  ::placeholder {
+    color: $white;
+  }
+}
+
+.datepicker {
+  .datepicker-table .datepicker-body .datepicker-cell.is-selectable {
+    color: $white;
+  }
+
+  .datepicker-header {
+    border-color: $lightdark;
+  }
+
+  select {
+    background-color: $lightdark;
+    color: $white;
+    border-color: $lightdark;
+
+    option {
+      color: $white;
+    }
+  }
+}
+
+.input,
+.textarea {
+  background-color: $lightdark;
+  color: $white;
+  border-color: $lightdark;
+}
