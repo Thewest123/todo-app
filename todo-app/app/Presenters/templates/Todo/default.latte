@@ -1,0 +1,16 @@
+{* This is the welcome page, you can delete it *}
+
+{block content}
+<div id="content">	
+	
+	{foreach $todos as $todo}
+		<div>
+			<p>Name: {$todo["name"]}</p>
+			<p>Desc: {$todo["desc"]}</p>
+			<p>Completed: {$todo["is_completed"]}</p>
+			<p>Deadline: {$todo["deadline"]}</p>
+		</div>
+		<br>
+	{/foreach}
+
+</div>
