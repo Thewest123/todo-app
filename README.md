@@ -10,7 +10,7 @@ Made with Vue.JS + Nette API
 	 1. Change settings in `todo-app\app\config\local.neon` to point to your database
          
  3. Navigate to the "**todo-front**" folder
-	 1. Change the "`VUE_APP_BACKEND_URL`" path in the "**.env**" file to point to your web server
+	 1. Change the `VUE_APP_BACKEND_URL` path in the "**.env**" file to point to `<YOUR_WEB_URL>/todo-app/www/todo` on your web server
 	 2. `yarn`
 	 3. `yarn serve`
 
